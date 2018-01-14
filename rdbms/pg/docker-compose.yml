@@ -1,0 +1,19 @@
+# docker-compose up
+version: '3'
+services:
+  pg:
+    image: "postgres:10.1"
+    environment: 
+      - POSTGRES_PASSWORD=pgpassword
+      - POSTGRES_USER=pguser
+      # TODO: anyway to configure root password, I recall pg is more secure than mysql by default
+    ports:
+      - "5432:5432" # guest host
+  # TODO: graph admin?
+  # https://github.com/sosedoff/pgweb
+  # FIXME: it is using CMD instead of entrypoint, so we can't pass pg config
+  # https://github.com/sosedoff/pgweb/blob/master/Dockerfile
+  adminer:
+    image: "adminer"
+    ports:
+      - "8080:8080"

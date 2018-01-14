@@ -37,6 +37,13 @@ TSDB
 - [ ] KairosDB
 - [ ] OpenTSDB
 
+Hybrid?
+
+- [ ] SAP HANA (can download the express edition)
+  - [ ] register and got a download manager ...
+  - https://www.sap.com/developer/tutorials/hxe-ua-install-using-docker.html seems to have docker ...
+  - https://github.com/SAP/go-hdb even go library
+
 ### Benchmark frameworks
 
 - [ ] TPC-X series
