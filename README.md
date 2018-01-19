@@ -19,6 +19,7 @@ KV
 
 - [ ] redis
 - [ ] memcached
+- [ ] https://github.com/Netflix/dynomite
 
 Column Family
 

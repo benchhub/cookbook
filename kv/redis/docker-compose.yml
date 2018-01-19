@@ -1,0 +1,7 @@
+version: '3'
+services:
+  # TODO: redis suggest disable huge page (THP)
+  redis:
+    image: "redis:4"
+    ports:
+      - "6379:6379" # guest host
