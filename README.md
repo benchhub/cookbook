@@ -10,9 +10,9 @@ Provision machine, setup databases and benchmarks frameworks
 
 RDBMS
 
-- [ ] MySQL (single node)
+- [x] MySQL (single node)
 - [ ] MySQL (master slave?)
-- [ ] PostgreSQL (single node)
+- [x] PostgreSQL (single node)
 - [ ] PostgresSQL (multi node)
 
 KV
@@ -35,7 +35,7 @@ TSDB
 
 - [ ] timescaledb (along w/ Postgres)
 - [ ] InfluxDB (only single node is available)
-- [ ] KairosDB
+- [x] KairosDB
 - [ ] OpenTSDB
 
 Hybrid?

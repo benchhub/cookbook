@@ -1,6 +1,7 @@
 # docker-compose up
 version: '3'
 services:
+  # https://hub.docker.com/_/postgres/
   pg:
     image: "postgres:10.1"
     environment: 
